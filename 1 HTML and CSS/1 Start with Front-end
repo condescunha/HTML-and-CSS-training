@@ -1,0 +1,128 @@
+
+
+Começando com Front-end
+
+Antes de começar a escrever linhas de códigos e desenvolver aplicações web, precisamos entender o que é front-end. Dividimos uma aplicação web em duas partes, a primeira é a parte que roda em um servidor, onde fica toda a parte lógica da aplicação, conhecida como back-end. Vimos bastante essa diferença neste artigo de back versus front.
+
+A segunda é a parte que roda no dispositivo da pessoa que está usando a aplicação, onde fica toda parte visual e interação com essa pessoa (imagens, vídeos, botões, animações, etc...). Essa segunda parte é conhecida como front-end. Essa arquitetura era bastante conhecida como cliente-servidor.
+
+Só precisamos tomar cuidado quando usamos o termo “front-end”. Eu disse que é no front-end que fica toda a parte visual e interação. Mas front-end não é apenas parte visual, atualmente é bastante lógica também, muita programação.
+
+Existe uma subdivisão dentro do próprio front-end: A parte visual e a parte lógica. A parte visual é exatamente o que a pessoa vê quando abre a aplicação: imagens, botões, cores, ícones, tabelas, animações, entre outros, e a parte lógica é a parte que cuida da integração do back-end com o front-end: requisições para APIs, preenchimento de informações de maneira dinâmica, contas, validações, etc…
+
+Mas embora existam essas partes dentro do front-end, as duas precisam de conhecimento básico em quatro habilidades: lógica, HTML, CSS e JavaScript. Independente se a sua vontade é trabalhar apenas na parte lógica do front-end ou apenas na parte visual, essas quatro habilidades são extremamente importantes para se tornar alguém que desenvolve front-ends.
+
+Você não precisa dominar essas quatro habilidades, com exceção de lógica. Mas você precisa ter pelo menos o conhecimento básico delas.
+
+O que é HTML?
+
+HTML é a linguagem da web, é o esqueleto de uma página, é a sua estrutura. HTML é uma linguagem de marcação de texto feita para indicar para o navegador qual o tipo de conteúdo que está sendo colocado em uma página. É a base para exibir algum conteúdo na web.
+
+É com o HTML que falamos para o navegador que a página que estamos construindo tem um título, um parágrafo, uma imagem, um link para outra página, uma lista, etc...
+
+O que é CSS?
+
+Se HTML é a estrutura de uma página web, o CSS é a tinta na parede, é a moldura do quadro pendurado, é o tamanho do letreiro. CSS é uma linguagem criada para estilizar coisas em uma página web, seja tamanho de fontes, cores de caixas, efeitos visuais, etc…
+
+O que é JavaScript?
+
+JavaScript é a linguagem criada para trazer interação em páginas web. Quer clicar em um botão e mudar a cor de algum componente? JavaScript! Quer mostrar uma mensagem na tela do navegador da pessoa usando sua aplicação? JavaScript! Quer preencher uma página com informações dinâmicas de algum serviço na web? JavaScript! Podemos dizer então que JavaScript é o “cérebro” de uma página web.
+
+Entendi o conceito, mas por onde começo?
+
+A base de uma página web é HTML. Sem HTML você não tem o que estilizar com CSS nem como criar interações. Então o primeiro passo é entender o que é HTML e como se começa uma página utilizando HTML.
+
+Nem todas as páginas web precisam de interações mais avançadas, mas todas as páginas precisam de algum tipo de estilização. Com esse pensamento em mente, o segundo passo é aprender estilização de páginas com CSS.
+
+O terceiro passo é aprender a deixar a página mais dinâmica para quem for usar. Micro interações, carregamento dinâmico de informações, buscas e até mesmo mudar estilizações usando JavaScript.
+
+Já sei o básico dos três, para onde vou agora?
+
+Agora tudo depende do que mais chama sua atenção. Lembrando que front-end pode ser dividido em duas partes: a parte visual e a parte lógica. Qual dessas te chama mais atenção?
+
+Essa não é uma decisão definitiva, você pode trocar de trilha caso ache que um caminho não é o ideal. Outra coisa importante é que você faça aquilo que te dá prazer, aquilo que você consegue se divertir fazendo e que te traga satisfação pessoal! Não se force a fazer algo que não gostaria de fazer. É muito importante manter a saúde mental.
+Gosto muito da parte visual! Qual é meu caminho?
+
+Aqui é onde a especialização é maior em HTML e CSS. Existem várias tecnologias, técnicas e padrões que precisam ser aprendidos. E ainda aqui podem existir outros caminhos mais específicos.
+HTML
+
+O mais importante na hora de escrever HTML é escrever um HTML semântico. As tags existem exatamente para descrever o conteúdo que é apresentado na página. Também aprenda atributos de acessibilidade para deixar a página mais inclusiva. Lembre-se de que uma página com um HTML semântico e inclusivo possui um ranking maior nos motores de busca! Aprenda técnicas de SEO e acessibilidade.
+CSS
+Tecnologias/propriedades:
+
+    Transition
+    Animation
+    Transform
+    Perspective
+    CSS Grid
+    Flexbox
+    Object-fit
+
+Essas tecnologias são bem interessantes para quem quer desenvolver páginas sem utilizar frameworks CSS.
+Pré/Pós processadores:
+
+    SASS (pré processador)
+    PostCSS (pós processador)
+
+Pré/Pós processadores existem para facilitar a escrita de CSS. Você acaba escrevendo código CSS de uma maneira diferente e na hora de enviar para um servidor, tudo é transformado em CSS comum.
+Frameworks:
+
+    Bootstrap
+    Materialize CSS
+    Tailwind CSS
+
+Frameworks são interessantes para quem precisa agilizar a escrita de CSS, sem precisar se preocupar com responsividade ou nomes de classes.
+Padrões de CSS:
+
+    BEM
+    Atomic CSS
+    Cube CSS
+    SMACSS
+
+Padrões de CSS são maneiras diferentes de se escrever CSS, seja em nomes de classes ou na separação de propriedades. A ideia principal desses padrões é escrever um CSS mais limpo e fácil de entender e dar manutenção.
+
+Alguns pontos para se adicionar: É interessante para quem quiser seguir esse caminho ter o conhecimento de JavaScript para pequenas interações e principalmente saber lidar com eventos. O conhecimento de JavaScript é extremamente importante para se trabalhar com WebGL. E também é um extra ter conhecimentos em design.
+Qual o nome dessa profissão? O que ela faz?
+
+É um pouco complicado dizer exatamente qual é o nome da pessoa que trabalha com esse caminho. Alguns chamam de Web Designer, Designer de Interação, UI Designer, etc… Mas talvez o nome mais aceito seja Designer Front-end.
+
+Uma das grandes vantagens de se ter uma pessoa designer front-end é que ela é a ponte entre designers e programadores. Exatamente por essa pessoa ter conhecimento básico nas duas partes, ela consegue traduzir o que as duas áreas acabam pedindo ou brigando durante a fase de desenvolvimento. Ela é a principal pessoa na hora de transformar o desenho da equipe de design em uma página real.
+Gosto muito da parte lógica! Qual é meu caminho?
+
+Aqui é onde a especialização é total em JavaScript. O que acaba acontecendo com algumas pessoas que seguem esse caminho é que elas apenas aprendem frameworks CSS, já que não é foco delas aprender tudo de CSS e HTML. Mas assim como o caminho para quem quer seguir a parte visual, existem várias tecnologias para se escolher e aprofundar.
+“Linguagem”
+
+TypeScript
+
+Essa é a principal “linguagem” usada para escrever aplicações ou funcionalidades com JavaScript. Deixei o termo “linguagem” entre aspas porque na verdade é um JavaScript. Existem outras “linguagens” que não citei porque a principal e mais usada é TypeScript, mas as outras são apenas maneiras diferentes de se escrever JavaScript.
+Frameworks
+
+    React
+    Angular
+    Vue.js
+    Next.js
+    Ionic
+    React Native
+
+Frameworks são ferramentas JavaScript que facilitam a escrita de aplicações e funcionalidades mais complexas e robustas. Assim como no caso das “linguagens”, no final o que é executado é um código JavaScript.
+Features/Tecnologias
+
+    Fetch
+    WebSocket
+    LocalStorage
+    Async/Await
+    Promises
+    Map
+    Arrays tipados
+    SPA
+    Progressive Web Apps
+    WebGL
+
+Aqui vem funcionalidades e conceitos que são comumente usados em aplicações do dia-a-dia, principalmente se sua aplicação faz coisas a mais do que só mostrar HTML e CSS. Muitos desses conceitos são extremamente importantes para aplicações que se conectam com um serviço back-end ou outras APIs. WebGL entra como um bônus para o desenvolvimento de games, por exemplo.
+Qual o nome dessa profissão? O que ela faz?
+
+Aqui já fica um pouco mais complexo de dar um nome único porque algumas pessoas acabam se especializando em um ou mais frameworks. Mas se for dar um nome genérico seria Engenheira/Engenheiro Front-end ou Desenvolvedora/Desenvolvedor Front-end. Dependendo de qual framework você queira focar, pode procurar por Desenvolvedora/Desenvolvedor React, por exemplo.
+
+Front-end é uma área com muitos caminhos para seguir, mas vale ressaltar que independente do caminho escolhido, é necessário ter um certo conhecimento básico. Tecnologias, frameworks e conceitos mudam em uma velocidade extremamente alta no mundo front-end, então uma recomendação é sempre se atualizar.
+
+Matheus Alberto
